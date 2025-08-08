@@ -25,7 +25,7 @@
             </div>
             <div class="role-info-colum">
                 <span class="role-info-label">人设</span>
-                <span class="role-info-value">{{ roleInfo.presupposition }}</span>
+                <span class="role-info-value role-info-value-presupposition">{{ roleInfo.presupposition }}</span>
             </div>
             <div class="fun-btns-wrapper">
                 <button class="fun-btn" @click="wantTextChat();makeChat()">
@@ -321,6 +321,10 @@ onMounted(() => {
 .role-info-value {
     font-size: var(--info-font-size);
     max-width: 200px;
+}
+.role-info-value.role-info-value-presupposition {
+    max-height: 100px;
+    overflow: hidden;
 }
 .fun-btns-wrapper {
     display: flex;
