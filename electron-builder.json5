@@ -1,0 +1,35 @@
+{
+	"productName": "alki",
+	"appId": "com.alki.app",  //应用程序的唯一标识符，通常采用反向域名的格式。在 Windows 和 macOS 系统中，它用于唯一标识应用程序，例如在系统的应用程序列表、注册表等地方
+	"win": {
+	"icon": "electron/resource/images/alki.ico",  // 务必使用多尺寸合一的icon文件, 否则文件管理器下, 最小视图下还是原生图标
+	"target": [
+		{
+			"target": "nsis",  //使用 NSIS（Nullsoft Scriptable Install System）来创建 Windows 安装程序。
+			"arch": ["x64"],  //指定打包的架构，["x64"] 表示只打包 64 位的安装程序。
+	    }
+	]
+	},
+	"nsis": {
+		"oneClick": false,  //是否使用一键安装模式。false 表示不使用一键安装模式，用户可以在安装过程中进行更多的自定义设置。
+		"perMachine": true,  //是否进行全系统安装。true 表示安装程序将以全系统的方式安装应用程序，需要管理员权限。
+		"allowToChangeInstallationDirectory": true,  // 是否允许用户更改安装目录。true 表示允许用户在安装过程中选择不同的安装目录。
+	},
+	"files": [
+		"dist",
+		"dist-electron"
+	],
+	"extraResources": [  //指定额外的资源文件，如本地化文件、帮助文档等。
+        {
+            "from": "dist-electron/cpp",
+            "to": "cpp"
+        },
+		{
+			"from": "config",
+			"to": "../config"
+		}
+    ],
+	"directories": {
+		"output": "../electron-builder-output"
+	}
+}
