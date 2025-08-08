@@ -3,6 +3,8 @@ The Electron front-end source code of the local voice chat software alki based o
 
 本项目是本地语音对话聊天软件aiki的electron前端源码
 
+其后端源码在：[ZhouSiChuan08/alkiserver: The C++ backend of the Alki local AI chat software](https://github.com/ZhouSiChuan08/alkiserver)
+
 使用 [vue3](https://github.com/vuejs/core) ➕[vite](https://github.com/vitejs/vite) ➕[electron/electron: :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS](https://github.com/electron/electron) 搭建
 
 ### 部分页面截图
