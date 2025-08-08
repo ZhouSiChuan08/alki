@@ -7,5 +7,35 @@ The Electron front-end source code of the local voice chat software alki based o
 
 ### 部分页面截图
 
+- 主页面
 
+<img src="images\主页面.png" alt="主页面" style="zoom: 50%;" />
+
+- 聊天页面
+
+<img src="images\聊天页面.png" alt="聊天页面" style="zoom:50%;" />
+
+- 联系人页面
+
+<img src="images\联系人页面.png" alt="联系人页面" style="zoom:50%;" />
+
+- 角色编辑
+
+  
+
+<img src="images\角色编辑.png" alt="角色编辑" style="zoom:50%;" />
+
+- 音色克隆
+
+  <img src="images\音色克隆.png" alt="音色克隆" style="zoom:50%;" />
+
+- 模型配置
+
+<img src="images\模型配置.png" alt="模型配置" style="zoom:50%;" />
+
+- 沉浸聊天
+
+  <img src="images\沉浸聊天.png" alt="沉浸聊天" style="zoom:50%;" />
+
+### 如何使用？
 
