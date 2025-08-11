@@ -50,7 +50,7 @@ The Electron front-end source code of the local voice chat software alki based o
 
 ### 1. 下载安装包并安装程序
 
-[下载链接](https://drive.google.com/file/d/1P26kU1Bh0YJ0bZVw8Jmk0xP1T_4bt6WV/view?usp=sharing)
+[下载链接](https://drive.google.com/file/d/1W-ZxGNrE8YN_9_pPaq85Y9R63Do6UYxr/view?usp=drive_link)
 
 ### 2.安装ollama并启动服务
 
