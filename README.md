@@ -115,7 +115,27 @@ The Electron front-end source code of the local voice chat software alki based o
         }
 ```
 
+### 4. 选择模型
 
+确保已经执行了【2.安装ollama并启动服务】，启动程序。
 
+进入设置界面，程序会自动读取已下载的大语言模型。如果已经下载了模型，即在cmd命令行中输入
 
+```bash
+ollama list
+```
+
+有回复模型列表，但程序显示空白，点击右下角【恢复】重新读取即可。
+
+然后选择你喜欢的大语言模型，点击【保存】保存配置。
+
+<img src="images\设置模型.png" alt="设置模型" style="zoom:50%;" />
+
+### 5.创建角色开始聊天
+
+进入主页面
+
+<img src="images\主页面.png" alt="主页面" style="zoom:50%;" />
+
+点击【创建人物 开启对话】创建角色，或点击任何已创建的【角色卡片】开始聊天！
 
