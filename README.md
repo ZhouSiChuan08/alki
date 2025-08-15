@@ -119,7 +119,7 @@ The Electron front-end source code of the local voice chat software alki based o
 
 确保已经执行了【2.安装ollama并启动服务】，启动程序。
 
-进入设置界面，程序会自动读取已下载的大语言模型。如果已经下载了模型，即在cmd命令行中输入
+进入设置界面，程序会自动读取已下载的大语言模型。如果已经下载了模型，在cmd命令行中输入
 
 ```bash
 ollama list
