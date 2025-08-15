@@ -54,11 +54,11 @@ The Electron front-end source code of the local voice chat software alki based o
 
 ### 2.安装ollama并启动服务
 
- 本地聊天模型基于[Ollama](https://ollama.com/)，取提前安装ollama并下载你喜欢的聊天模型。
+ 本地聊天模型基于[Ollama](https://ollama.com/)，需提前安装ollama并下载你喜欢的聊天模型。
 
 下载链接：[Ollama](https://ollama.com/)
 
-然后进入使用 `win+R` 键，输入`cmd`打开命令行窗口，再输入`ollama list`启动ollama服务
+然后进入windows桌面，使用 `win+R` 键，输入`cmd`打开命令行窗口，再输入`ollama list`启动ollama服务
 
 ### 3.开启语音和翻译服务
 
